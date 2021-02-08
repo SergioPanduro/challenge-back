@@ -1,0 +1,21 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "nodemon --watch server/server.js"
+  },
+  "author": "Sergio Panduro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.17",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "underscore": "^1.12.0"
+  }
+}
